@@ -1,0 +1,246 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-family: "Montserrat", sans-serif;
+    height: 100%;
+  }
+  body {
+    background: #eee;
+    height: 100%;
+   
+  }
+  
+  .top-bar {
+    background-color: #47663B;
+    margin: auto -16px;
+    padding: 16px 48px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center
+  }
+  
+  .top-bar ul {
+    color: #fff;
+    font-family: "Montserrat", cursive;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+  }
+
+  .top-bar a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 200;
+  }
+
+  .midle-header  {
+    background-color: #E8ECD7;
+    margin: auto -16px;
+    padding: 16px 48px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center
+  }
+
+  .midle-header h1{
+    color: rgb(68, 45, 45);
+    font-family: "McLaren", cursive;
+    font-weight: bolder
+  }
+.midle-header ul{
+  color: black;
+    font-family: "Montserrat", cursive;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+ 
+.midle-header a{
+  text-decoration: none;
+  color: rgb(68, 45, 45);
+  font-weight: 200;
+}
+.bottom-header  {
+  background-color: #E8ECD7;
+  margin: auto -16px;
+  padding: 16px 48px;
+  display: flex;
+  gap: 60px;
+  flex-wrap: wrap; 
+  align-items: center
+}
+.bottom-header a{
+  text-decoration: none;
+  color: rgb(68, 45, 45);
+  font-weight: 200px;
+  font-size: 20px;
+}
+.bottom-header ul{
+  color: black;
+    font-family: "Montserrat", cursive;
+    font-weight: 200;
+    /* display: flex; */
+    /* align-items: center; */
+   /* gap: 20s; */
+    list-style: none;
+}
+  
+footer {
+  background-color: #47663B;
+  margin: 0;
+  padding: 5px 48px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  /* display: flex; 
+  flex-wrap: wrap; */
+  /* justify-content: space-between;
+  align-items: center  */
+}
+
+footer h5 {
+  color: #fff;
+}
+footer .text-color {
+  color: #fff;
+}
+
+footer .text-color:hover {
+  color: #46bcdd; /* Màu khi hover */
+  text-decoration: underline; /* Hiển thị gạch chân khi hover */
+}
+
+footer p {
+  color: #fff;
+}
+
+footer .row {
+  display: flex;
+  justify-content: space-between; /* Căn đều khoảng cách */
+  flex-wrap: wrap; /* Đảm bảo không bị tràn khi màn hình nhỏ */
+  gap: 2rem; /* Khoảng cách giữa các phần */
+}
+
+.navbar {
+  background-color: #47663B;
+  margin: auto -16px;
+  padding: 16px 48px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center
+}
+
+.navbar ul {
+  color: #fff;
+  font-family: "Montserrat", cursive;
+  font-weight: 200;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+  font-size: 20px;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 200;
+}
+
+.navbar h2{
+  color: #fff;
+}
+.navbar a:hover {
+  color: #46bcdd; /* Màu khi hover */
+  text-decoration: underline; /* Hiển thị gạch chân khi hover */
+}
+  .product{
+    background-color: #E8ECD7;
+    margin: auto -16px;
+    padding: 16px 48px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center
+  }
+   .laptop {
+    
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 280px;
+    margin: 16px;
+  
+  }
+  /*
+  .note h1 {
+    font-size: 1.1em;
+    margin-bottom: 6px;
+  }
+  .note p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  } */
+  
+  /* .note button {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    color: #f5ba13;
+    border: none;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    outline: none;
+  } */
+  
+  /* form {
+    position: relative;
+    width: 480px;
+    margin: 30px auto 20px auto;
+    background: #fff;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+  }
+  form input,
+  form textarea {
+    width: 100%;
+    border: none;
+    padding: 4px;
+    outline: none;
+    font-size: 1.2em;
+    font-family: inherit;
+    resize: none;
+  }
+  form button {
+    position: absolute;
+    right: 18px;
+    bottom: -18px;
+    background: #f5ba13;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    outline: none;
+  } */
+  
